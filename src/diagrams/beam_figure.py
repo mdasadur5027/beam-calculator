@@ -187,7 +187,7 @@ def draw_beam(beam_length, supports, point_loads, distributed_loads, moments):
             ab = AnnotationBbox(imagebox, (moment_position, 0), frameon=False)
             ax.add_artist(ab)
 
-            ax.text(moment_position, 0.3, f'{abs(moment_magnitude)} kNm', color='black', ha='center')
+            ax.text(moment_position, 4, f'{abs(moment_magnitude)} kNm', color='black', ha='center')
 
     # Positions
     positions = []
