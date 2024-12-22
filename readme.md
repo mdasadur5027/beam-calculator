@@ -1,4 +1,4 @@
-# This is Version 2.0
+# This is Version 2.0 of Beam Calculator
 Here I improve User Interface, the beam design and the diagrams.
 
 # Structural Analysis Beam Tool
