@@ -48,7 +48,7 @@ def calculate_reactions(supports, point_loads, distributed_loads, moments, beam_
                     reactions.append((reaction_moment_pos[0],i))
 
                 # st.write(reactions)
-                reaction_direction ="⬇️" if reactions[0][1] <0 else "⬆️"
+                reaction_direction ="🡻" if reactions[0][1] <0 else "🢁"
                 st.write('Reaction at Fixed Support: ', abs(round(reactions[0][1],2)), " kN ", reaction_direction)
                 moment_direction = "Clockwise" if reactions[1][1] >0 else "Anticlockwise"
                 st.write('Moment at Fixed Support: ', abs(round(reactions[1][1],2)), ' kNm (', moment_direction, ' )')
