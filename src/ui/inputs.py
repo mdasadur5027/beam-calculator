@@ -44,7 +44,7 @@ def input_loads(beam_length, saved_point_loads, saved_distributed_loads):
     num_point_loads = st.number_input(
         'Number of Point Loads',
         min_value=0,
-        max_value=5,
+        max_value=15,
         value=len(saved_point_loads) or 0
     )
     point_loads = []
